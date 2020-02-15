@@ -1,0 +1,19 @@
+[package]
+name = "py-rustlib"
+version = "0.1.0"
+authors = ["Aditya Kresna <aditya.kresna@outlook.co.id>"]
+edition = "2018"
+license = "MIT"
+description = "Python bindings to Rust's DEMO library."
+
+[lib]
+name = "py_rustlib"
+crate-type = ["rlib", "cdylib", "staticlib"]
+path = "./src/lib.rs"
+
+[dependencies.pyo3]
+version = "0.8.5"
+features = ["extension-module"]
+
+[build-dependencies]
+cbindgen = "0.4"
