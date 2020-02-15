@@ -2,7 +2,7 @@
 
 ## Template TODO
 
-- [ ] Make this template repo also for C/C++ Library
+- [ ] Make this template repo also for C/C++ export (produce headers)
 - [ ] Automate build with CI/CD
 
 ## Template Demo
@@ -28,8 +28,9 @@ then
 1. Update [Cargo.toml](Cargo.toml)
 2. Update [setup.py](setup.py)
 3. Update [README.md](README.md)
-4. Update [LICENSE](LICENSE) (if necessary)
-5. Update the code in [src/lib.rs](src/lib.rs)
+4. Update the code in [src/lib.rs](src/lib.rs)
+5. Update [LICENSE](LICENSE) (if necessary)
+6. Update folder structure (if necessary)
 
 ## Pre-requisites
 

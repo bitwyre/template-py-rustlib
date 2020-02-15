@@ -1,6 +1,7 @@
 *.egg-info
 .eggs
 .github
+py_rustlib
 build
 Cargo.lock
 dist
