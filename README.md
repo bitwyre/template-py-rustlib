@@ -19,7 +19,7 @@ then
 ```python
 >>> from py_rustlib.py_rustlib import say_hello_to
 >>> say_hello_to("Bitwyre")
-'Hello Bitwyre!'
+"Hello Bitwyre! I'm 🦀!"
 >>>
 ```
 
@@ -33,7 +33,7 @@ then
 
 ## Pre-requisites
 
-- Linux
+- Linux/Mac
 - Nightly Rust
 - Python 3.7 or later
 - [cbindgen](https://github.com/eqrion/cbindgen) (for C/C++ not yet implemented)
@@ -49,7 +49,7 @@ then
 ### Release Build & Install (Python Only)
 
 ```bash
-./rebuild install
+./rebuild-install.sh
 ```
 
 ## Author
